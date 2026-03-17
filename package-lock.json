@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>LCR Remodeling | Licensed & Insured Apartment & Hotel Maintenance | NJ PA NY MD VA NC FL MA</title>
+    <meta name="title" content="LCR Remodeling | Licensed & Insured Apartment & Hotel Maintenance | NJ PA NY MD VA NC FL MA" />
+    <meta name="description" content="Professional licensed and insured maintenance, remodeling, plumbing, and drain services for apartments and hospitality properties. Serving NJ, PA, NY, MD, VA, NC, FL, MA and expanding. Emergency services 24/7. Call (609) 212-6052 or (609) 233-9233." />
+    <meta name="keywords" content="apartment maintenance services, hotel maintenance contractor, licensed plumber, drain cleaning service, emergency plumbing, property maintenance company, apartment remodeling, hospitality maintenance, HVAC maintenance, water heater repair, licensed insured contractor, KRE Group contractor, Harbor Group Properties maintenance, Extended Stay America maintenance, Homewood Suites contractor, Inn House Suites maintenance, commercial plumbing, residential remodeling, emergency maintenance services, 24/7 plumbing, apartment turnover services, property management contractor, New Jersey maintenance, Pennsylvania maintenance, New York maintenance, Maryland maintenance, Virginia maintenance, North Carolina maintenance, Florida maintenance, Massachusetts maintenance, NJ apartment maintenance, PA hotel maintenance, NY property maintenance, MD remodeling contractor, VA plumbing services, NC drain cleaning, FL hospitality maintenance, MA emergency plumbing, multi-state maintenance contractor, licensed contractor NJ PA NY, insured maintenance company, apartment complex maintenance, hotel property maintenance, extended stay maintenance, property turnover services, unit renovation, kitchen remodeling contractor, bathroom remodeling services, emergency repair services, commercial property maintenance, residential property services, fixture installation, pipe repair services, preventive maintenance programs, facility maintenance contractor" />
+    <meta name="author" content="LCR Remodeling" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="3 days" />
+    <link rel="canonical" href="https://lcrremodeling.com/" />
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="US-NJ;US-PA;US-NY;US-MD;US-VA;US-NC;US-FL;US-MA" />
+    <meta name="geo.placename" content="Multi-State Service Area" />
+    <meta name="coverage" content="Worldwide" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lcrremodeling.com/" />
+    <meta property="og:title" content="LCR Remodeling | Licensed & Insured Apartment & Hotel Maintenance | NJ PA NY MD VA NC FL MA" />
+    <meta property="og:description" content="Professional licensed and insured maintenance, remodeling, plumbing, and drain services for apartments and hospitality properties. Serving NJ, PA, NY, MD, VA, NC, FL, MA and expanding. 24/7 emergency services." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="LCR Remodeling" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lcrremodeling.com/" />
+    <meta property="twitter:title" content="LCR Remodeling | Licensed & Insured Apartment & Hotel Maintenance | NJ PA NY MD VA NC FL MA" />
+    <meta property="twitter:description" content="Professional licensed and insured maintenance, remodeling, plumbing, and drain services for apartments and hospitality properties. Serving NJ, PA, NY, MD, VA, NC, FL, MA and expanding." />
+
+    <!-- Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "LCR Remodeling",
+      "image": "",
+      "@id": "https://lcrremodeling.com",
+      "url": "https://lcrremodeling.com",
+      "telephone": "+16092126052",
+      "alternativeTelephone": "+16092339233",
+      "email": "service@lcrremodeling.com",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "NJ",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "16:00"
+        }
+      ],
+      "sameAs": [],
+      "foundingDate": "2020",
+      "areaServed": [
+        {
+          "@type": "State",
+          "name": "New Jersey"
+        },
+        {
+          "@type": "State",
+          "name": "Pennsylvania"
+        },
+        {
+          "@type": "State",
+          "name": "New York"
+        },
+        {
+          "@type": "State",
+          "name": "Maryland"
+        },
+        {
+          "@type": "State",
+          "name": "Virginia"
+        },
+        {
+          "@type": "State",
+          "name": "North Carolina"
+        },
+        {
+          "@type": "State",
+          "name": "Florida"
+        },
+        {
+          "@type": "State",
+          "name": "Massachusetts"
+        }
+      ],
+      "serviceType": [
+        "Apartment Maintenance",
+        "Hotel Maintenance",
+        "Hospitality Maintenance",
+        "Property Maintenance",
+        "Emergency Plumbing Services",
+        "Drain Cleaning",
+        "Complete Remodeling",
+        "Kitchen Remodeling",
+        "Bathroom Remodeling",
+        "HVAC Maintenance",
+        "Water Heater Repair",
+        "Pipe Repair",
+        "Fixture Installation",
+        "Unit Turnover Services",
+        "Property Management Contractor Services"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Maintenance and Remodeling Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Apartment Maintenance Services",
+              "description": "Comprehensive maintenance solutions for apartment complexes including emergency repairs, routine maintenance, unit turnover, and HVAC services"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Hospitality Maintenance Services",
+              "description": "Expert maintenance services for hotels, motels, and extended stay properties with quick response times and minimal guest disruption"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Complete Remodeling Services",
+              "description": "Full-service renovation including kitchen and bathroom remodels, flooring installation, painting, and custom carpentry"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Drain and Plumbing Services",
+              "description": "Professional plumbing and drain cleaning including emergency services, pipe repairs, water heater services, and fixture installation"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- Service Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Property Maintenance and Remodeling",
+      "provider": {
+        "@type": "Organization",
+        "name": "LCR Remodeling",
+        "description": "Licensed and insured professional maintenance and remodeling services for apartments and hospitality properties across multiple states",
+        "telephone": "+16092126052",
+        "email": "service@lcrremodeling.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "NJ",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          "New Jersey", "Pennsylvania", "New York", "Maryland", "Virginia", "North Carolina", "Florida", "Massachusetts"
+        ],
+        "slogan": "Build Better Spaces - Licensed & Insured Professional Service"
+      }
+    }
+    </script>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "LCR Remodeling",
+      "url": "https://lcrremodeling.com",
+      "logo": "",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+16092126052",
+          "contactType": "customer service",
+          "areaServed": ["US"],
+          "availableLanguage": ["en"]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+16092339233",
+          "contactType": "customer service",
+          "areaServed": ["US"],
+          "availableLanguage": ["en"]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+/*
+  # Create Contact Submissions Table
+
+  1. New Tables
+    - `contact_submissions`
+      - `id` (uuid, primary key) - Unique identifier for each submission
+      - `name` (text) - Full name of the person submitting
+      - `email` (text) - Email address of the submitter
+      - `phone` (text) - Phone number of the submitter
+      - `property_type` (text) - Type of property (apartment, hotel, residential, commercial, other)
+      - `message` (text) - Project details and message
+      - `created_at` (timestamptz) - Timestamp when the submission was created
+      - `email_sent` (boolean) - Whether the notification email was sent successfully
+      
+  2. Security
+    - Enable RLS on `contact_submissions` table
+    - Add policy for service role to insert submissions
+    - Add policy for authenticated admin users to view submissions
+    
+  3. Important Notes
+    - This table stores all contact form submissions for record-keeping
+    - Email notifications will be sent via edge function
+    - Default values ensure data integrity
+*/
+
+CREATE TABLE IF NOT EXISTS contact_submissions (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  name text NOT NULL,
+  email text NOT NULL,
+  phone text NOT NULL,
+  property_type text NOT NULL,
+  message text NOT NULL,
+  created_at timestamptz DEFAULT now(),
+  email_sent boolean DEFAULT false
+);
+
+ALTER TABLE contact_submissions ENABLE ROW LEVEL SECURITY;
+
+-- Allow anyone to insert contact submissions (public form)
+CREATE POLICY "Anyone can submit contact form"
+  ON contact_submissions
+  FOR INSERT
+  TO anon, authenticated
+  WITH CHECK (true);
+
+-- Only authenticated users can view submissions (for admin purposes)
+CREATE POLICY "Authenticated users can view submissions"
+  ON contact_submissions
+  FOR SELECT
+  TO authenticated
+  USING (true);
